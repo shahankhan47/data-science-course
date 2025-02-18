@@ -1,0 +1,6 @@
+- Choose the appropriate type of visualization.
+- Keep the visualization simple and easy to read.
+- Use clear labeling and formatting.
+    - Including a clear title and legend.
+- Keep visualization focused on the main point.
+- Consider the audience and tailor to their needs.

@@ -1,0 +1,88 @@
+- Line plots:
+    - Displays data as series of data points connected by straight lines.
+    - Display trends over time
+    - Compare datasets with a continuous independent variable like age/time/etc
+    - Illustrate cause and effect relationships
+    - Visualize continuous data
+    - Can be misleading if the scales on the axes are not carefully chosen.
+
+- Bar plot:
+    - Displays data using rectangualar bars.
+    - Height/length of the bar represents magnitude of the data.
+    - Can be either vertical or horizontal.
+    - Compare different categories or groups.
+    - Displays discrete data that has distinct categories.
+    - Show how different categories contribute to the whole.
+    - Visualize data that can be easily ranked or ordered.
+    - Can be misleading if the scales on the axes are not carefully chosen.
+
+- Scatter plot:
+    - Uses cartesian coordinates to display values for 2 variables.
+    - Value of one variable -> x-axis position. Value of another variable -> y-axis position.
+    - Used for:
+        - Examining relationship between 2 continuous variables.
+        - Investigating patterns or trends in data.
+        - Detect outliers or unusual observations.
+        - Identify clusters or groups within the data.
+        - Exploring complex data.
+
+- Box plot:
+    - Displays distribution of dataset along with key statistical measures.
+    - Represents the interquartile range as a box, a median line and whiskers indicating range.
+    - Outliers are represented as individual data points beyond whiskers.
+    - Used for:
+        - Compare distribution of a continuous variable accross different categories or groups.
+        - Examine spread and skewness of dataset
+        - Visualizin quartiles.
+        - Identify and analyze potential outliers.
+        - Visualize summary statistics.
+        - Compare distribution of multiple variables in a dataset side by side.
+        
+- Histogram:
+    - Graphical representation of dataset distribution.
+    - Shows frequency or relative frequency within intervals.
+    - Bars represent the data count in each interval.
+    - Used for:
+        - Understand data distribution
+        - Visually depict the shape of the data
+        - Assess skewness in the data
+        - Showcase data variability and spread
+
+====================================================================================================================================
+Popular Plot libraries in Python:
+    - Matplotlib:
+        - General purpose plotting library.
+        - Integrates well with libraries and frameworks.
+        - Features:
+            - Create wide variety of plots.
+            - Customizes various elements.
+            - Very popular
+    - Pandas:
+        - Used for data manipulation.
+        - Visualization functions are built on matplotlib.
+        - Feaures:
+            - Integrates seemlessly with Pandas data structure.
+            - Analyzes exploratory data using visualization capabilities.
+    - Seaborn:
+        - Great for specialized statistical visualization.
+        - Also built on matplotlib.
+        - Offers stylish plots.
+        - Features:
+            - Offers various color palettes and styles.
+            - Offers functions to combine multiple plots in a grid layout.
+            - Integrates well with pandas.
+    - Folium:
+        - Excellent for geo-spatial data visualization.
+        - Builds interactive and customizable maps.
+        - Features:
+            - Integrates with popular data analysis libraries.
+    - Plotly:
+        - Has highly interactive plots and dashboard.
+        - Can create variety of plots.
+        - Features:
+            - Interactive dashboards
+            - Enables plotting in a web browser
+    - PyWaffle:
+        - Visualize categorical data using waffle charts.
+        - Features:
+            - Provides unique way to represent proportions.
