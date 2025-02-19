@@ -14,7 +14,7 @@ to_csv(), to_json(), to_excel(), to_sql()
 
 
 ========================================================================================================
-df.dtypes() - datatypes for all columns
+df.dtypes - datatypes for all columns
 df.describe() - count, mean, std, min, 25%, 50%, 75%, max for all columns
 df.describe(include="all") - include all columns (even with datatype of not a number. It will contain NaN)
 df.info() - concise summary of the dataframe.
